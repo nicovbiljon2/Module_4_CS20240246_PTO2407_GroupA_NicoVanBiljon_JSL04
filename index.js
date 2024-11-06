@@ -5,12 +5,10 @@
 // print whether the user prefers a "Regular" or "Sugar-free" variety. If the preference is not set, default to "Regular".
 
 let userPreference = "Sugar-free"; // Possible values: 'Regular', 'Sugar-free', or undefined
-// create an if statement to check if the user preferred type is true or not
-if (userPreference != "Sugar-free") {
-    userPreference = "Regular";
-} else if (userPreference == "") {
-    userPreference = "undefined";
-}
+// use ternary operator ?: to check if the user preferred type is true or not
+userPreference === "Sugar-free"
+    ? (userPreference = "Sugar-free")
+    : (userPreference = "Regular");
 console.log(`The user prefers a ${userPreference} Monster Energy drink`);
 
 // #### Challenge 2: Stock Check
