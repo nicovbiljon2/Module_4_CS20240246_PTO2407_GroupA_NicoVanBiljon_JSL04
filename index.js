@@ -46,11 +46,18 @@ console.log(`Monster Energy drink temperature: ${temperatureSuitability}`);
 // otherwise, print "Better stick to water."
 
 // Define the current hour in 24-hour format
-let currentHour = 22;
+let currentHour = 6;
 
 // Write your code below this line to determine if it's a good idea to have a Monster Energy drink based on the current hour
 // If it's between 7am and midnight (24-hour format), print "Unleash the beast!"
 // Otherwise, print "Better stick to water."
+let lateNight =
+    currentHour >= 7 && currentHour <= 24
+        ? "Unleash the beast!"
+        : "Better the stick to water.";
+console.log(
+    `Is it a good idea to have a Monster Energy drink based on the current hour? ${lateNight}`
+);
 
 // In each of these challenges, the ternary operator is used to decide between two options based on a condition,
 // demonstrating its utility for concise conditional logic. Remember that while ternaries can make the code more succinct,
