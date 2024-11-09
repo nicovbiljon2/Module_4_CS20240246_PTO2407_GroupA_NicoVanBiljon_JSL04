@@ -34,3 +34,19 @@ In each of these challenges, the ternary operator is used to decide between two 
 4. We will consider the commit history and meaningful commit messages to evaluate your coding process.
 
 Please follow the provided steps and guidelines to complete the Monster Ternary Operator challenge effectively. Your ability to use ternary operators for conditional logic is a valuable skill, and we look forward to reviewing your work.
+
+Challenge 1:
+Used a ternary operator to check if the user preferred type is true or not.
+If yes it will print out "Sugar-free".
+If not it will print out "Regular".
+
+Challenge 2:
+Used a ternary operator to check if the number of cans is less than 5 or more than 5.
+If it is less than 5 it will print out "Time to restock!".
+If it is 5 or more it will print out "We're stocked!".
+
+Challenge 3:
+Used an if, else statement to check if the user heart rate is less or more than 100 bmp.
+If it is less it will print out "Boost Needed!".
+If it is more than 100bmp it will print out "Energy levels are hight!'.
+
