@@ -24,11 +24,12 @@ console.log(`Monster Energy Stock Check: ${stockLevel}`);
 // If the heart rate is below 100 bpm, print "Boost needed!", otherwise, print "Energy levels are high!".
 
 let heartRate = 95; // Current heart rate in bpm
-if (heartRate < 100) {
-    console.log(`Workout Intensity: ${heartRate}bmp: Boost needed!`);
-} else {
-    console.log(`Workout Intensity: ${heartRate}bmp: Energy levels are high!`);
-}
+let workoutIntensity =
+    heartRate < 100
+        ? console.log(`Workout Intensity: ${heartRate}bmp: Boost needed!`)
+        : console.log(
+              `Workout Intensity: ${heartRate}bmp: Energy levels are high!`
+          );
 
 // #### Challenge 4: Temperature Suitability
 // Monster Energy drinks are best served cold. Given the current temperature, use a ternary to print "Chilled to perfection!"
