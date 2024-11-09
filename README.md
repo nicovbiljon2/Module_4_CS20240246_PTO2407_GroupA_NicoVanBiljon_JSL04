@@ -1,6 +1,7 @@
 # [JSL04] Submission: Monster Ternary Operator
 
 You will:
+
 1. Use the provided Starter Code Repository.
 2. Code your solution.
 3. Commit changes to your GitHub repository.
@@ -14,7 +15,7 @@ In each of these challenges, the ternary operator is used to decide between two 
 
 ## What You Need to Do:
 
-1. Clone the provided Starter Code Repository to your local development environment (e.g., VSCode): https://github.com/CodeSpace-Academy/Module_4_StudentNo_Classcode_Group_Name-Surname_JSL04 
+1. Clone the provided Starter Code Repository to your local development environment (e.g., VSCode): https://github.com/CodeSpace-Academy/Module_4_StudentNo_Classcode_Group_Name-Surname_JSL04
 2. Open the cloned project in your code editor.
 3. Code your solution for each of the challenges as per the provided instructions.
 4. Commit your changes to your local Git repository with meaningful commit messages.
@@ -50,3 +51,7 @@ Used an if, else statement to check if the user heart rate is less or more than 
 If it is less it will print out "Boost Needed!".
 If it is more than 100bmp it will print out "Energy levels are hight!'.
 
+Challenge 4:
+Used a ternary operator to check if the temperature of the monster energy drink is less than or equal to 5°C.
+If the answer is yes then it will print out "Chilled to perfection!".
+If the answer is no and the temperature is higher than 5°C it will print out "Needs a cooler!".
