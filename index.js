@@ -54,7 +54,7 @@ let currentHour = 6;
 let lateNight =
     currentHour >= 7 && currentHour <= 24
         ? "Unleash the beast!"
-        : "Better the stick to water.";
+        : "Better stick to water.";
 console.log(
     `Is it a good idea to have a Monster Energy drink based on the current hour? ${lateNight}`
 );
